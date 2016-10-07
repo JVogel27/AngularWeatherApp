@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>weatherApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset='utf-8'>
+    <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body ng-app="weatherApp">
+  	<div class='container-fluid'>
+			<div ng-include="'/views/header.html'"></div>
+    	<div>
+      	<div ng-view></div>
+    	</div>
+    	<div ng-include="'/views/footer.html'"></div>
+  	</div>
+    
+    <!-- Vendor libraries -->
+    <script src="lib/jquery-v1.11.1.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="lib/angular-v1.2.22.js"></script>
+    <script src="lib/angular-route-v1.2.22.js"></script>
+    <script src="lib/angular-sanitize-v1.2.22.js"></script>
+    <script src="https://code.angularjs.org/1.2.0/angular-animate.js"></script>
+    <!-- Application Files -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers/weatherCtrl.js"></script>
+    <script src="js/factories/weatherFactory.js"></script>
+
+
+  </body>
+</html>

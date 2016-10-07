@@ -1,0 +1,86 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 70px;
+	min-width: 568px;
+}
+.container-fluid{
+	max-width: 1600px;
+}
+.section{
+	margin: 3em 0em;
+}
+.header-wrapper{
+	height: 15em;
+	background-color: #0099ff;
+	color: white;
+	text-align: center;
+}
+.header-wrapper i{
+	padding-top: .5em;
+}
+.fa-sun-o{
+	color: #ffff1a;
+}
+.fa-cloud{
+	color:#bfbfbf;
+}
+.input-wrapper{
+	margin-top: 5em;
+	text-align: center;
+}
+.input-wrapper p{
+	 margin-top: 2em;
+	 color: red;
+}
+.input-wrapper #input{
+	width: 100%;
+	height: 3em;
+	font-size: 120%;
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin: 2em auto .5em auto;
+}
+.search-wrapper button{
+	display: block;
+	margin: auto;
+	margin: 2em auto 5em auto;
+}
+.weather-wrapper{
+	background-color: #0099ff;
+	color: white;
+	text-align: center;
+	margin-top: 2em;
+	border: solid 1px;
+	border-radius: 10px;
+	height: 30em;
+	opacity: 0;
+	transition: 3s linear;
+}
+.weather-wrapper.ng-hide-remove{
+	opacity: 1;
+}
+
+
+.weather-wrapper .wthrDescrip{
+	border: solid 2px;
+	border-radius: 10px;
+}
+
+label{
+	margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.footer{
+	margin: auto;
+	max-width: 1600px;
+	min-width: 568px;
+	background-color: #0099ff;
+	color: white;
+	text-align: center;
+}
+.footer p{
+	padding-top: 10px;
+}
